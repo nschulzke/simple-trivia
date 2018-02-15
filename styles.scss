@@ -1,0 +1,43 @@
+.main {
+  width: 40rem;
+  margin-top: 1rem;
+  .trivia {
+    #difficulty {
+      width: auto;
+    }
+    #score {
+      padding: .375rem .75rem
+    }
+    #question-answer {
+      position: relative;
+      height: 100%;
+      h1 {
+        font-size: 1.1rem;
+        text-align: center;
+        margin: 1rem 0;
+      }
+      #answers {
+        margin: 0 5rem;
+        & > div {
+          margin-top: 1rem;
+        }
+        .correct {
+          color: green;
+          font-weight: bold;
+        }
+        .incorrect {
+          color: red;
+          font-weight: bold;
+        }
+      }
+      #next-button {
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+      }
+    }
+    .card-block {
+      min-height: 15rem;
+    }
+  }
+}
