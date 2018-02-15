@@ -2,11 +2,19 @@
   width: 40rem;
   margin-top: 1rem;
   .trivia {
-    #difficulty {
-      width: auto;
-    }
-    #score {
-      padding: .375rem .75rem
+    .card-header {
+      display: flex;
+      #difficulty {
+        width: auto;
+      }
+      #title {
+        font-size: 1.6rem;
+        flex: 1;
+        text-align: center;
+      }
+      #score {
+        padding: .375rem .75rem
+      }
     }
     #question-answer {
       position: relative;
